@@ -1,0 +1,54 @@
+{
+    "WeatherForecast": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "City": {"S": "Irvine"},
+                    "Date": { "S": "2022-05-08T05.11.40.595Z" },
+                    "condition": {"S": "Warm" },
+                    "temperature": {"N": "54" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "City": {"S": "Irvine"},
+                    "Date": { "S": "2022-05-09T05.11.40.595Z" },
+                    "condition": {"S": "Cool" },
+                    "temperature": {"N": "44" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "City": {"S": "Irvine"},
+                    "Date": { "S": "2022-05-10T05.11.40.595Z" },
+                    "condition": {"S": "Cold" },
+                    "temperature": {"N": "24" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "City": {"S": "Irvine"},
+                    "Date": { "S": "2022-05-11T05.11.40.595Z" },
+                    "condition": {"S": "Hot" },
+                    "temperature": {"N": "74" }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "City": {"S": "Anaheim"},
+                    "Date": { "S": "2022-05-10T05.11.40.595Z" },
+                    "condition": {"S": "Mild" },
+                    "temperature": {"N": "72" }
+                }
+            }
+        }
+    ]
+} 
